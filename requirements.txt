@@ -1,0 +1,15 @@
+anndata>=0.7
+docutils
+jinja2
+loompy
+numpy>=1.14.0
+matplotlib
+pandas
+scanpy
+scipy
+seaborn
+sfaira
+sphinx
+sphinx-autodoc-typehints
+sphinx_rtd_theme
+tqdm
