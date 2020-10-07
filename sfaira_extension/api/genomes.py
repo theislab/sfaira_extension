@@ -1,1 +1,1 @@
-from sfaira_extension.genomes import ExtractFeatureListEnsemble
+# from sfaira_extension.genomes import ExtractFeatureListEnsemble
