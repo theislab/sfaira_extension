@@ -4,7 +4,7 @@ from typing import Union
 from sfaira.data import DatasetGroupBase
 
 
-class DatasetGroupTestis(DatasetGroupBase):
+class DatasetGroupAdipose(DatasetGroupBase):
 
     def __init__(
         self, 

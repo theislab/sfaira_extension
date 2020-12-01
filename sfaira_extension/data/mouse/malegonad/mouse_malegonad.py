@@ -4,7 +4,7 @@ from typing import Union
 from sfaira.data import DatasetGroupBase
 
 
-class DatasetGroupFat(DatasetGroupBase):
+class DatasetGroupMalegonad(DatasetGroupBase):
 
     def __init__(
         self, 

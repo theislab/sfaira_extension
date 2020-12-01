@@ -4,7 +4,7 @@ from typing import Union
 from sfaira.data import DatasetGroupBase
 
 
-class DatasetGroupLargeintestine(DatasetGroupBase):
+class DatasetGroupMuscle(DatasetGroupBase):
 
     def __init__(
         self, 

@@ -4,8 +4,7 @@ from typing import Union
 from sfaira.data import DatasetGroupBase
 
 
-
-class DatasetGroupPeripheralBlood (DatasetGroupBase):
+class DatasetGroupColon(DatasetGroupBase):
 
     def __init__(
         self, 

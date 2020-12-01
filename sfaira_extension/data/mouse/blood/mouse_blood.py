@@ -4,7 +4,7 @@ from typing import Union
 from sfaira.data import DatasetGroupBase
 
 
-class DatasetGroupMarrow(DatasetGroupBase):
+class DatasetGroupBlood (DatasetGroupBase):
 
     def __init__(
         self, 
