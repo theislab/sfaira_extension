@@ -19,3 +19,4 @@ __email__ = ', '.join([
 
 import sfaira_extension.data
 import sfaira_extension.versions
+import sfaira_extension.estimators
