@@ -16,7 +16,3 @@ __email__ = ', '.join([
     "leander.dony@helmholtz-muenchen.de",
     "david.fischer@helmholtz-muenchen.de"
 ])
-
-import sfaira_extension.data
-import sfaira_extension.versions
-import sfaira_extension.estimators
