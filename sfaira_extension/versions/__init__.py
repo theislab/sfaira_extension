@@ -1,2 +1,3 @@
 from sfaira_extension.versions import celltype_versions
 from sfaira_extension.versions import topology_versions
+from sfaira_extension.versions import genome_versions
