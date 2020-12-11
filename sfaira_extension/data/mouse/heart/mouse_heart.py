@@ -11,6 +11,7 @@ class DatasetGroupHeart(DatasetGroupBase):
         path: Union[str, None] = None,
         meta_path: Union[str, None] = None
     ):
+        super().__init__()
         datasets = [
         ]
         keys = [x.id for x in datasets]
