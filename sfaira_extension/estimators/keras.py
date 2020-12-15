@@ -1,7 +1,8 @@
-from sfaira.estimators import EstimatorKeras, EstimatorKerasEmbedding, EstimatorKerasCelltype
 from typing import Union
+
 import anndata
 import numpy as np
+from sfaira.estimators import EstimatorKerasEmbedding, EstimatorKerasCelltype
 
 
 class EstimatorKerasEmbeddingExtended(EstimatorKerasEmbedding):
@@ -10,7 +11,7 @@ class EstimatorKerasEmbeddingExtended(EstimatorKerasEmbedding):
             data: Union[anndata.AnnData, np.ndarray],
             model_dir: Union[str, None],
             model_id: Union[str, None],
-            species: Union[str, None],
+            organism: Union[str, None],
             organ: Union[str, None],
             model_type: Union[str, None],
             model_topology: Union[str, None],
@@ -21,7 +22,7 @@ class EstimatorKerasEmbeddingExtended(EstimatorKerasEmbedding):
             data=data,
             model_dir=model_dir,
             model_id=model_id,
-            species=species,
+            organism=organism,
             organ=organ,
             model_type=model_type,
             model_topology=model_topology,
@@ -36,7 +37,7 @@ class EstimatorKerasCelltypeExtended(EstimatorKerasCelltype):
             data: Union[anndata.AnnData, np.ndarray],
             model_dir: Union[str, None],
             model_id: Union[str, None],
-            species: Union[str, None],
+            organism: Union[str, None],
             organ: Union[str, None],
             model_type: Union[str, None],
             model_topology: Union[str, None],
@@ -48,7 +49,7 @@ class EstimatorKerasCelltypeExtended(EstimatorKerasCelltype):
             data=data,
             model_dir=model_dir,
             model_id=model_id,
-            species=species,
+            organism=organism,
             organ=organ,
             model_type=model_type,
             model_topology=model_topology,

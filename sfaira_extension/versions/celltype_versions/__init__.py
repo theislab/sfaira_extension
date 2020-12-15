@@ -1,7 +1,7 @@
-from . import mouse
 from . import human
+from . import mouse
 
-SPECIES_DICT = {
+ORGANISM_DICT = {
     "mouse": mouse.ORGAN_DICT,
     "human": human.ORGAN_DICT
 }
