@@ -3,10 +3,11 @@ from typing import Union
 
 from sfaira.data import DatasetGroupBase
 
+
 class DatasetGroupPlacenta(DatasetGroupBase):
 
     def __init__(
-        self, 
+        self,
         path: Union[str, None] = None,
         meta_path: Union[str, None] = None
     ):

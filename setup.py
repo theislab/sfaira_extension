@@ -6,7 +6,7 @@ author_email = 'david.fischer@helmholtz-muenchen.de'
 description = ""
 
 with open("README.rst", "r") as fh:
-     long_description = fh.read()
+    long_description = fh.read()
 
 setup(
     name='sfaira_extension',

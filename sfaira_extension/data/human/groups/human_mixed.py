@@ -7,7 +7,7 @@ from sfaira.data import DatasetGroupBase
 class DatasetGroupMixed(DatasetGroupBase):
 
     def __init__(
-        self, 
+        self,
         path: Union[str, None] = None,
         meta_path: Union[str, None] = None
     ):
