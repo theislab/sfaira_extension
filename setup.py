@@ -23,7 +23,7 @@ setup(
         'pandas',
         'scipy>=1.2.1',
         'tqdm',
-        'sfaira'
+        'sfaira',
     ],
     extras_require={
         'tensorflow': [
