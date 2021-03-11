@@ -19,32 +19,14 @@ setup(
     install_requires=[
         'anndata>=0.7',
         'h5py',
+        'loompy',
         'numpy>=1.16.4',
         'pandas',
+        'scanpy',
         'scipy>=1.2.1',
         'tqdm',
-        'sfaira',
     ],
     extras_require={
-        'tensorflow': [
-            'tensorflow>=2.0.0',
-            'tensorflow-gpu>=2.0.0'
-        ],
-        'kipoi': [
-            'kipoi',
-            'git-lfs'
-        ],
-        'plotting_deps': [
-            "seaborn",
-            "matplotlib",
-            "sklearn"
-        ],
-        'scanpy': [
-            "scanpy"
-        ],
-        'loompy': [
-            "loompy",
-        ],
         'docs': [
             'sphinx',
             'sphinx-autodoc-typehints',
